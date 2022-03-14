@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE=edge">
+    <meta name="viwport" content = "width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/x.icon" href="./img/logo_2.png">
+    <title> Pasteleria Love </title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0;
+            background-color: #cadedf;
+          
+        }
+        body {
+            font-family:Georgia, Arial
+        }
+        /* Estilo de header */
+        header{
+            background-color: #528d97;
+            text-align: center;
+            color: #ffffff;
+        }
+        
+        /* Crear barra de navegación */
+        nav ol {
+            list-style-type: none;
+            text-align: center;
+            background-color: #528d97;
+        }
+        nav li {
+            display: inline;
+            text-align: center;
+            margin: 15px;
+           
+        }
+        nav li a { 
+            background-color: #42727a;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 2px 3px 2px 3px;
+        }
+        nav li a:hover{ 
+            background-color: #5f76a1;
+            height: 10px;
+        } 
+
+        /* Estilo headers*/
+        h1 {
+            background-color: #5f76a1;
+            height: 40px;
+            text-align: center;
+            color: white;
+            text-size-adjust: 100px ;
+        }
+        h2 {
+            background-color: #5f76a1;
+            height: 30px;
+            text-align: center;
+            color: white;
+            text-size-adjust: 100px ;
+    
+        }
+
+        /* Estilo listas*/
+        ul{
+            background-color: #cadedf;
+            color: #d1188d; 
+            text-align: center;
+            text-decoration:none;
+          
+        }
+        /* Estilo párrafos e input */
+        input{
+            margin: 0px;
+            background-color: #cadedf;
+            color: #d1188d; 
+            text-align: center;
+        }
+        p{
+            margin: 8px;
+            color: #4f6285;  
+        }
+
+        /*Estilo de footer*/
+        footer{
+            background-color: #528d97;
+            color: #d1188d; 
+            padding: 25px;
+            height:fit-content
+        }      
+       
+    </style>
+</head>
+
+<body>
+
+    <header>  <!-- Logo y titulo -->
+        <br>
+        <img src="./img/logo_2.png" alt="Otra" class="center" width="250px" height="250px">
+        <br><br>
+        <nav>
+            <ol>
+                <br>
+                <li><a href="index.html">Inicio</a></li>
+                <li> <a href="inventario.html">Página del pastelero</a></li>
+
+                <br>
+            </ol>
+        </nav>
+        <br>
+    </header>          
+            
+    <hr>
+    <h1>Sabores</h1>
+    <ul> 
+        <strong>
+            <li>    Café</li> 
+            <li>    Chocolate</li> 
+            <li>    Naranja</li> 
+            <li>    Nuez</li>
+            <li>    Tres leches</li> 
+            <li>    Vainilla</li> 
+        </strong>
+    </ul>   
+
+    <h1>Coberturas</h1>
+    <ul> 
+        <strong>
+            <li> Betún casero</li> 
+            <li> Crema batida</li> 
+            <li> Crema chantilly</li> 
+            <li> Cobertura de chocolate</li>
+        </strong> 
+    </ul>
+    <hr>
+    <h1>Haga su pedido</h1>
+    <p>
+
+        <label for="nombre1">Ingrese su nombre</label><br>
+        <input type="text" id="nombre1" name="nombre1";><br>
+    
+        <label for="tel1">Ingrese su teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br>
+
+        <label for="mail1">Correo electrónico</label><br>
+        <input type="email" id="mail1" name="mail1" maxlength="50"><br>
+
+        <label for="nombre1">¿Qué debe decir el pastel?</label><br>
+        <input type="text" id="letrero" name="letrero" maxlength="23"><br><br>
+
+        <input type="radio" id="letrero" name="letrero" value="letrero">
+        <label for="letrero">No quiero mensaje en el pastel</label><br>
+        </p> 
+    
+    <h2>Escoja tamaño y sabor de su pastel</h2>
+    <p><br>
+
+        <label for="Tamaño">Tamaño</label>
+        <select id="Tamaño" name="Tamaño">
+            <option value="Chico">Chico</option>
+            <option value="Mediano">Mediano</option>
+            <option value="Grande">Grande</option>
+            <option value="Extra grande">Extra grande</option>
+        </select><br><br>
+
+        <label for="Coberturas">Cobertura</label>
+        <select id="Coberturas" name="Coberturas">
+            <option value="Betún casero">Betún casero</option>
+            <option value="Crema batida">Crema batida</option>
+            <option value="Crema pastelera">Crema chantilly</option>
+            <option value="Cobertura de chocolate">Cobertura de chocolate</option>
+        </select>
+        <br>
+    </p>
+    <p><br>
+
+        <input type="radio" id="Café" name="sabor" value="Café">
+        <label for="Café">Café</label><br>
+
+        <input type="radio" id="Chocolate" name="sabor" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+
+        <input type="radio" id="Naranja" name="sabor" value="Naranja">
+        <label for="Naranja">Naranja</label><br>
+
+        <input type="radio" id="Nuez" name="sabor" value="Nuez">
+        <label for="Nuez">Nuez</label><br>
+
+        <input type="radio" id="Tres leches" name="sabor" value="Tres leches">
+        <label for="Tres leches">Tres leches</label><br>
+
+        <input type="radio" id="Vainilla" name="sabor" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+    </p>
+    
+    <h2>Escoja fecha de entrega de su pastel</h2>
+    <p><br>
+        <input type="date" id="fecha1" name="fecha1"><br><br>
+        <input type="time" id="fecha4" name="fecha4"><br><br>
+    </p>
+    <!-- Botón-->
+    <h2>Tras elegir opciones, solicite su pedido :)</h2>
+    <br>
+    <p>
+        
+    <!-- Por defecto dice "enviar consulta", cambiar value para modificar-->
+        <input type="button" style="background-color:#528d97; color:#ffffff; padding: 5px" id="boton1" name="boton1" value="Solicitar pedido" onclick="alert('Se ha registrado su pedido');">
+        <br><br>
+        <input type="reset" style="background-color:#528d97; color:#ffffff; padding: 5px">
+        <br><br><hr>
+    </p>
+
+    <footer> 
+        <h1> Contacto</h1>
+            
+            
+            <h2 style="color:#a3dde0 ; background-color: #a54595; text-align: center;"> Love Bakery</h2>
+        <p style="text-align:center">
+        <br> Dirección: Callejón del Romance, Centro, Morelia, Mich.
+        <br> Tel: 443-555-6666
+        <br> love_bakery@protonmail.com
+        <br> Horario de atención: Lunes a Sábado, de 10 am  a 7 pm   
+        <br><br>
+    </p>
+    </footer>
+
+</body>
+</html>

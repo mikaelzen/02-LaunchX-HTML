@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE=edge">
+    <meta name="viwport" content = "width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/x.icon" href="./img/logo_1.png">
+    <title> Pasteleria Love </title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0;
+            background-color: #cadedf;
+          
+        }
+        body {
+            font-family:Georgia, Arial
+        }
+        /* Estilo de header */
+        header{
+            background-color: #8b2c60;
+            text-align: center;
+            color: #ffffff;
+        }
+        
+        /* Crear barra de navegación */
+        /* Color detrás de lista*/
+        nav ol {
+            list-style-type: none;
+            text-align: center;
+            background-color: #8b2c60;
+        }
+        nav li {
+            display: inline;
+            text-align: center;
+            margin: 15px;
+           
+        }
+        nav li a { 
+            background-color: #662046;
+
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 2px 3px 2px 3px;
+        }
+        nav li a:hover{ 
+            background-color: #5f76a1;
+            height: 10px;
+        } 
+
+        /* Estilo headers*/
+        h1 {
+            background-color: #5f76a1;
+            height: 40px;
+            text-align: center;
+            color: white;
+            text-size-adjust: 100px ;
+        }
+        h2 {
+            background-color: #5f76a1;
+            height: 30px;
+            text-align: center;
+            color: white;
+            text-size-adjust: 100px ;
+    
+        }
+         /* Estilo de tabla (header y cuerpo)*/
+         th {        
+            padding: 5px;
+            background-color: #b1387a;
+            color: #ffffff;
+            text-align: center;
+        }
+        td{
+            margin: auto;
+            padding: 2px;
+            background-color:#699eb3;
+            color: black;
+        }   
+
+        p{
+            margin: 8px;
+            color: #4f6285;  
+        }
+
+        /*Estilo de footer*/
+        footer{
+            background-color: #8b2c60;
+            color: #d1188d; 
+            padding: 25px;
+            height:fit-content
+        }      
+       
+    </style>
+</head>
+
+<body>
+
+    <header>  <!-- Logo y titulo -->
+        <br>
+        <img src="./img/logo_1.png" alt="Otra" class="center" width="250px" height="250px">
+        <br><br>
+        <nav>
+            <ol>
+                <br>
+                <li><a href="index.html">Volver como cliente</a></li>
+                <li> <a href="inventario.html">Recargar página</a></li>
+
+                <br>
+            </ol>
+        </nav>
+        <br>
+    </header>          
+            
+<hr>
+    <h1>Inventario</h1>
+    <br>
+    <!-- Tablas inventario -->
+    <table style="margin: 0 auto;"> 
+        <tr>
+            <th>Código</th>
+            <th>Producto</th>
+            <th>Existencias <br>iniciales</th>
+            <th>Entradas</th>
+            <th>Salidas</th>
+            <th>Stock</th>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Harina</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td>Leche</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Huevos</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0004</td>
+            <td>Azúcar</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0004</td>
+            <td>Azúcar glass</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0005</td>
+            <td>Mantequilla</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0006</td>
+            <td>Vainilla</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0007</td>
+            <td>Polvo de hornear</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0008</td>
+            <td>Café</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0009</td>
+            <td>Chocolate amargo</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0010</td>
+            <td>Cacao en polvo</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0011</td>
+            <td>Crema para batir</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0012</td>
+            <td>Leche condensada</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0013</td>
+            <td>Leche evaporada</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0014</td>
+            <td>Leche evaporada</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0015</td>
+            <td>Cereza en almíbar</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0016</td>
+            <td>Fruta surtida en almíbar</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0017</td>
+            <td>Saborizante naranja</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0018</td>
+            <td>Chispitas vainilla</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0019</td>
+            <td>Chispitas chocolate</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>0020</td>
+            <td>Chispitas colores</td>
+            <td>25</td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <br>
+
+    <h1>Pedidos</h1>
+    <br>
+    <table style="margin: 0 auto;"> 
+        <tr>
+            <th> Cliente </th>
+            <th> Teléfono </th>
+            <th> Correo </th> 
+            <th> Mensaje del pastel </th> 
+            <th> Tamaño </th> 
+            <th> Sabor </th> 
+            <th> Cobertura </th> 
+            <th> Fecha entrega </th>
+        </tr> 
+    
+        <tr>
+            <td> Rodrigo Martínez </td>
+            <td> 123-456-7890  </td>
+            <td> cliente01@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Mediano </td>
+            <td> Chocolate </td>
+            <td> Chocolate </td>
+            <td> 16-03-2022 </td>
+        </tr>
+        <tr>
+            <td> Fernanda Ochoa </td>
+            <td> 123-456-7891  </td>
+            <td> cliente02@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Chico </td>
+            <td> Vainilla </td>
+            <td> Chantilly </td>
+            <td> 17-03-2022 </td>
+        </tr>
+        <tr>
+            <td> Oscar Rodíles </td>
+            <td> 123-456-7892  </td>
+            <td> cliente03@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Grande </td>
+            <td> Tres leches </td>
+            <td> Betún casero</td>
+            <td> 21-03-2022 </td>
+        </tr>
+        <tr>
+            <td> Jesús Guzmán </td>
+            <td> 123-456-7893  </td>
+            <td> cliente04@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Mediano </td>
+            <td> Chocolate </td>
+            <td> Chocolate </td>
+            <td> 02-04-2022 </td>
+        </tr>
+        <tr>
+            <td> Ricardo Mirón </td>
+            <td> 123-456-7894  </td>
+            <td> cliente05@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Grande </td>
+            <td> Naranja </td>
+            <td> Crema batida </td>
+            <td> 05-04-2022 </td>
+        </tr>
+        <tr>
+            <td> Rodolfo Ferro </td>
+            <td> 123-456-7895  </td>
+            <td> cliente06@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Chico </td>
+            <td> Café </td>
+            <td> Chantilly </td>
+            <td> 17-04-2022 </td>
+        </tr>
+        <tr>
+            <td> Zoé Arenas </td>
+            <td> 123-456-7896  </td>
+            <td> cliente07@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Grande </td>
+            <td> Chocolate </td>
+            <td> Chocolate </td>
+            <td> 27-04-2022 </td>
+        </tr>
+        <tr>
+            <td> Carlos Sierra </td>
+            <td> 123-456-7897  </td>
+            <td> cliente08@outlook.com </td>
+            <td> Mensaje </td>
+            <td> Grande </td>
+            <td> Nuez </td>
+            <td> Chantilly </td>
+            <td> 30-04-2022 </td>
+        </tr>
+
+    </table>
+    <br>
+          
+    
+    <!-- Botón-->
+    <hr>
+    <h2>Al terminar, haz click en el botón</h2>
+    <br><p>
+    <!-- Por defecto dice "enviar consulta", cambiar value para modificar-->
+        <input type="button" style="background-color:#528d97; color:#ffffff; padding: 5px" id="boton1" name="boton1" value="Terminé el inventario" onclick="alert('Muy bien!');">
+    <br><br><hr>
+    </p>
+
+    <footer> 
+        <h1> Contacto</h1>
+        <h2 style="color:#8b2c60 ;background-color: #5eb9c0; text-align: center;"> Love Bakery</h2>
+        <p style="text-align:center">
+        <br> Dirección: Callejón del Romance, Centro, Morelia, Mich.
+        <br> Tel: 443-555-6666
+        <br> love_bakery@protonmail.com
+        <br> Horario de atención: Lunes a Sábado, de 10 am  a 7 pm   
+        <br><br>
+    </p>
+    </footer>
+
+</body>
+</html>
